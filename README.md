@@ -5,7 +5,9 @@
 ---
 
 ## 📸 Demo (to be added later)
-<!-- space for screenshots or terminal output GIF -->
+<img width="1365" height="776" alt="image" src="https://github.com/user-attachments/assets/4252ac15-703b-4649-890a-05a4d3444b1a" />
+<img width="1478" height="1054" alt="Screenshot 2025-10-04 161243" src="https://github.com/user-attachments/assets/7adb60ad-fd5f-4bc3-80da-5bd16aa53c04" />
+<img width="1473" height="983" alt="Screenshot 2025-10-04 161158" src="https://github.com/user-attachments/assets/c5cb37db-2450-440f-88d8-fcfe4dfaffd7" />
 
 ---
 
