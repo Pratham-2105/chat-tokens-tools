@@ -141,7 +141,8 @@ java TokenChunker myfile.txt gpt5-40k ./chunks --overlap=250 --headroom=0.1
 
 ## 📂 File & Folder Overview
 
-chat-tokens-tools/
+```
+chat-token-tools/
 ├── src/
 │   └── org/
 │       └── pratham/
@@ -152,11 +153,12 @@ chat-tokens-tools/
 │
 ├── sample-data/
 │   └── sample.txt
+│
 ├── LICENSE
 ├── README.md
 ├── .gitignore
 └── CONTRIBUTING.md
-
+```
 
 ---
 
