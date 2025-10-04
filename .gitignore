@@ -1,0 +1,56 @@
+# ===========================================
+#  Chat Token Tools (Java)
+#  .gitignore — Final Version
+# ===========================================
+
+# --- Java Build Files ---
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Build Directories ---
+/bin/
+/out/
+/build/
+/dist/
+
+# --- IDE Specific ---
+# Eclipse
+/.project
+/.classpath
+/.settings/
+/.metadata/
+/recommenders/
+/.remote/
+/.settings/
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Temporary / Cache Files ---
+*.tmp
+*.bak
+*.swp
+*.log
+*.cache
+
+# --- Chunker Output (custom) ---
+*__chunks/
+*__token_report.txt
+chunk_plan.txt
+summary_prompts.txt
+
+# --- Misc ---
+/target/
+/classes/
+/test-output/
