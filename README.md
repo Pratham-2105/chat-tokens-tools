@@ -52,7 +52,7 @@ If you’re using Eclipse:
 If you prefer the command line:  
 ```bash
 cd src
-javac Main.java TokenEstimator.java TokenChunker.java
+javac org/pratham/chattools/*.java
 ```
 
 ---
@@ -64,7 +64,7 @@ Estimates how many tokens your text file approximately uses and whether it fits 
 
 **Usage**  
 ```bash
-java TokenEstimator <path-to-text-file> [--clean=unicode|ascii|none] [--summary]
+java org/pratham/chattools/TokenEstimator <path-to-text-file> [--clean=unicode|ascii|none] [--summary]
 ```
 
 **Options**  
@@ -73,7 +73,7 @@ java TokenEstimator <path-to-text-file> [--clean=unicode|ascii|none] [--summary]
 
 **Example**  
 ```bash
-java TokenEstimator myfile.txt --clean=unicode --summary
+java org/pratham/chattools/TokenEstimator myfile.txt --clean=unicode --summary
 ```
 
 ---
@@ -85,7 +85,7 @@ Splits a large text file into safe chunks based on a selected model’s token li
 
 **Usage**  
 ```bash
-java TokenChunker <input.txt> <modelKey> [outDir] [--overlap=200] [--max=OVERRIDE] [--headroom=0.15] [--clean=unicode|ascii|none] [--dryrun]
+java org/pratham/chattools/TokenChunker <input.txt> <modelKey> [outDir] [--overlap=200] [--max=OVERRIDE] [--headroom=0.15] [--clean=unicode|ascii|none] [--dryrun]
 ```
 
 **Model Keys**  
@@ -98,12 +98,12 @@ java TokenChunker <input.txt> <modelKey> [outDir] [--overlap=200] [--max=OVERRID
 **Examples**  
 - Dry-run preview (no files written):  
 ```bash
-java TokenChunker myfile.txt gpt5-40k --dryrun
+java org/pratham/chattools/TokenChunker myfile.txt gpt5-40k --dryrun
 ```
 
 - Actual run (creates chunks):  
 ```bash
-java TokenChunker myfile.txt gpt5-40k ./chunks --overlap=250 --headroom=0.1
+java org/pratham/chattools/TokenChunker myfile.txt gpt5-40k ./chunks --overlap=250 --headroom=0.1
 ```
 
 ---
